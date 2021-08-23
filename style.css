@@ -1,0 +1,202 @@
+#nav a{
+    font-family: 'Kalam', cursive;
+    color: rgb(250, 250, 98);
+}
+#mac span{
+    color: rgb(3, 190, 3);
+}
+#mac{
+    margin: 30px;
+    color: #fbaf32 !important;
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 700;
+    transition: .5s;
+}
+#loginbtn{
+    background-color: #fbaf32;
+    color: white;
+    font-weight: 700;
+}
+#content strong{
+    font-family: 'Kalam', cursive;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+}
+#adminInfo input{
+    margin: 30px;
+    height: 25px;
+}
+#adminInfo p{
+    font-size: 17px;
+    display: inline-block;
+}
+.container{
+    margin-top: 80px;
+}
+.container button{
+    float: right;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 10px;
+    color: red;
+    border: 2px solid red;
+    margin-top: 40px;
+}
+.container button:hover{
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+}
+#drop p{
+    cursor: pointer;
+}
+#drop p:hover{
+    background-color: rgb(230, 230, 230);
+}
+#dishPannel{
+    margin: 3.5% auto;
+    border-radius: 35px;
+    background-color: rgb(12, 10, 10);
+    opacity: 0.7;
+    height: 500px;
+    padding: 40px;
+}
+#dishPannel div{
+    flex-wrap: wrap;
+}
+#dishPannel input{
+    margin: 20px;
+    border-radius: 9px;
+    padding: 3px;
+    background-color: white;
+    margin-left: -0px;
+}
+#category{
+    margin: 20px;
+    border-radius: 9px;
+    padding: 3px;
+    width: 200px;
+    background-color: white;
+}
+#itemPic{
+    width: 250px;
+}
+#dishbtn{
+    text-align: right;
+}
+#dishbtn button{
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+#dishbtn button:hover{
+    background-color: rgb(255, 255, 88);
+}
+#dishimg{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("images/dishes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed; 
+}
+#button{
+    font-size: 20px;
+    border: none; 
+    background-color: transparent !important;
+    color: rgb(250, 250, 98) !important; 
+    margin-left: -20px;
+}
+#mainimg{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed; 
+}
+#mainimg2{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("images/resturantPage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed; 
+}
+#dashimg{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(160, 118, 118, 0.5));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed; 
+}
+#profileimg{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(160, 118, 118, 0.5)),url("images/profile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+#userimg{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(160, 118, 118, 0.5)),url("images/userpage2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+#cards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-img-top{
+    width: 286px;
+    height: 296.41px;
+}
+.card-body{
+    background-color: rgb(233, 233, 233);
+}
+.card-body a{
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#landingPage{
+    margin: 15% auto;
+}
+#landingPage h1{
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#landingPage span{
+    color: #fbaf32;
+}
+#dropdownMenuButton1{
+    background: transparent;
+    border: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fbaf32;
+}
+#pannelName{
+    font-size: 23px !important;
+    color: #fbaf32 !important;
+    text-shadow: none !important;
+}
+#singout{
+    background-color: #fbaf32 !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
